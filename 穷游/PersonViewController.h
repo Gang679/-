@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PersonViewController.h
 //  穷游
 //
 //  Created by dc004 on 15/11/16.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
-@interface ViewController : UIViewController
 
+@interface PersonViewController : UIViewController
 
 @end
-

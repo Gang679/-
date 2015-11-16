@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C291C494A25F50407BE38B59 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D93FD35D5EC56168DA4C7FF /* libPods.a */; };
 		C78A8FD51BF96464004A9C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A8FD41BF96464004A9C0A /* main.m */; };
 		C78A8FD81BF96464004A9C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A8FD71BF96464004A9C0A /* AppDelegate.m */; };
 		C78A8FDB1BF96464004A9C0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A8FDA1BF96464004A9C0A /* ViewController.m */; };
@@ -16,6 +17,9 @@
 		C78A8FE61BF96464004A9C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78A8FE41BF96464004A9C0A /* LaunchScreen.storyboard */; };
 		C78A8FF11BF96464004A9C0A /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A8FF01BF96464004A9C0A /* __Tests.m */; };
 		C78A8FFC1BF96464004A9C0A /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A8FFB1BF96464004A9C0A /* __UITests.m */; };
+		C78A900E1BF981E9004A9C0A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A900D1BF981E9004A9C0A /* WebViewController.m */; };
+		C78A90111BF9AB0D004A9C0A /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A90101BF9AB0D004A9C0A /* FindViewController.m */; };
+		C78A90141BF9AB22004A9C0A /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A90131BF9AB22004A9C0A /* PersonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D93FD35D5EC56168DA4C7FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5A8AF345C79014030F0E52 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C78A8FD01BF96464004A9C0A /* 穷游.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "穷游.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78A8FD41BF96464004A9C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C78A8FD61BF96464004A9C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +59,13 @@
 		C78A8FF71BF96464004A9C0A /* 穷游UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "穷游UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78A8FFB1BF96464004A9C0A /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		C78A8FFD1BF96464004A9C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78A900C1BF981E9004A9C0A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C78A900D1BF981E9004A9C0A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		C78A900F1BF9AB0D004A9C0A /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		C78A90101BF9AB0D004A9C0A /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		C78A90121BF9AB22004A9C0A /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		C78A90131BF9AB22004A9C0A /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		E619A0366BC8FED3C61D6293 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C291C494A25F50407BE38B59 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A747FD1DE775B638EAB686E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D93FD35D5EC56168DA4C7FF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C78A8FC71BF96464004A9C0A = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +109,8 @@
 				C78A8FEF1BF96464004A9C0A /* 穷游Tests */,
 				C78A8FFA1BF96464004A9C0A /* 穷游UITests */,
 				C78A8FD11BF96464004A9C0A /* Products */,
+				DD7047DFA2B4B5435DD1FC26 /* Pods */,
+				A747FD1DE775B638EAB686E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +127,9 @@
 		C78A8FD21BF96464004A9C0A /* 穷游 */ = {
 			isa = PBXGroup;
 			children = (
-				C78A8FD61BF96464004A9C0A /* AppDelegate.h */,
-				C78A8FD71BF96464004A9C0A /* AppDelegate.m */,
-				C78A8FD91BF96464004A9C0A /* ViewController.h */,
-				C78A8FDA1BF96464004A9C0A /* ViewController.m */,
+				C78A90151BF9CD70004A9C0A /* Model */,
+				C78A90171BF9CD95004A9C0A /* View */,
+				C78A90181BF9CDA9004A9C0A /* Control */,
 				C78A8FDC1BF96464004A9C0A /* Main.storyboard */,
 				C78A8FE21BF96464004A9C0A /* Assets.xcassets */,
 				C78A8FE41BF96464004A9C0A /* LaunchScreen.storyboard */,
@@ -143,6 +166,70 @@
 			path = "穷游UITests";
 			sourceTree = "<group>";
 		};
+		C78A90151BF9CD70004A9C0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C78A90171BF9CD95004A9C0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C78A90181BF9CDA9004A9C0A /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				C78A90191BF9CE19004A9C0A /* Main */,
+				C78A901A1BF9CE3A004A9C0A /* Find */,
+				C78A901B1BF9CE4E004A9C0A /* Person */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		C78A90191BF9CE19004A9C0A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C78A8FD61BF96464004A9C0A /* AppDelegate.h */,
+				C78A8FD71BF96464004A9C0A /* AppDelegate.m */,
+				C78A8FD91BF96464004A9C0A /* ViewController.h */,
+				C78A8FDA1BF96464004A9C0A /* ViewController.m */,
+				C78A900C1BF981E9004A9C0A /* WebViewController.h */,
+				C78A900D1BF981E9004A9C0A /* WebViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C78A901A1BF9CE3A004A9C0A /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				C78A900F1BF9AB0D004A9C0A /* FindViewController.h */,
+				C78A90101BF9AB0D004A9C0A /* FindViewController.m */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		C78A901B1BF9CE4E004A9C0A /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				C78A90121BF9AB22004A9C0A /* PersonViewController.h */,
+				C78A90131BF9AB22004A9C0A /* PersonViewController.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		DD7047DFA2B4B5435DD1FC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E619A0366BC8FED3C61D6293 /* Pods.debug.xcconfig */,
+				9A5A8AF345C79014030F0E52 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C78A90001BF96464004A9C0A /* Build configuration list for PBXNativeTarget "穷游" */;
 			buildPhases = (
+				DF56D36F254E7FB98E8061A2 /* Check Pods Manifest.lock */,
 				C78A8FCC1BF96464004A9C0A /* Sources */,
 				C78A8FCD1BF96464004A9C0A /* Frameworks */,
 				C78A8FCE1BF96464004A9C0A /* Resources */,
+				FEEE7BC442EEEB9672278436 /* Embed Pods Frameworks */,
+				B15DFC03A7111EBC11BEAE59 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,13 +358,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B15DFC03A7111EBC11BEAE59 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF56D36F254E7FB98E8061A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEEE7BC442EEEB9672278436 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C78A8FCC1BF96464004A9C0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C78A8FDB1BF96464004A9C0A /* ViewController.m in Sources */,
+				C78A900E1BF981E9004A9C0A /* WebViewController.m in Sources */,
 				C78A8FE11BF96464004A9C0A /* __.xcdatamodeld in Sources */,
+				C78A90141BF9AB22004A9C0A /* PersonViewController.m in Sources */,
+				C78A90111BF9AB0D004A9C0A /* FindViewController.m in Sources */,
 				C78A8FD81BF96464004A9C0A /* AppDelegate.m in Sources */,
 				C78A8FD51BF96464004A9C0A /* main.m in Sources */,
 			);
@@ -413,6 +554,7 @@
 		};
 		C78A90011BF96464004A9C0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E619A0366BC8FED3C61D6293 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "穷游/Info.plist";
@@ -424,6 +566,7 @@
 		};
 		C78A90021BF96464004A9C0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5A8AF345C79014030F0E52 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "穷游/Info.plist";
@@ -500,6 +643,7 @@
 				C78A90021BF96464004A9C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C78A90031BF96464004A9C0A /* Build configuration list for PBXNativeTarget "穷游Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +652,7 @@
 				C78A90051BF96464004A9C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C78A90061BF96464004A9C0A /* Build configuration list for PBXNativeTarget "穷游UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +661,7 @@
 				C78A90081BF96464004A9C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
