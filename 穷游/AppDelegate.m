@@ -18,17 +18,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     ViewController *first = [[ViewController alloc]init];
     first.view.backgroundColor = [UIColor orangeColor];
-     first.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"主页" image:[UIImage imageNamed:@"11"] tag:1];
+//     first.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"主页" image:[UIImage imageNamed:@"11"] tag:1];
+//    
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:first];
     
     FindViewController *second = [[FindViewController alloc]init];
     second.view.backgroundColor = [UIColor redColor];
-    second.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"发现" image:[UIImage imageNamed:@"22"]tag:2];
+//    second.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"发现" image:[UIImage imageNamed:@"tabbar_icon_found_highlight"]tag:2];
     UINavigationController *navi1 = [[UINavigationController alloc]initWithRootViewController:second];
     
     PersonViewController *third = [[PersonViewController alloc]init];
     third.view.backgroundColor = [UIColor whiteColor];
-    second.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"我" image:[UIImage imageNamed:@"33"]tag:3];
+//    second.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"我" image:[UIImage imageNamed:@"33"]tag:3];
     UINavigationController *navi2 = [[UINavigationController alloc]initWithRootViewController:third];
     
     
@@ -69,9 +70,9 @@
 //       c3.tabBarItem =[[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemSearch tag:2];
 //        UIViewController *c4=[[UIViewController alloc]init];
 //        c4.tabBarItem.title=@"设置";
-//c4.tabBarItem =[[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemMore tag:3];
-//       tabbar.viewControllers=@[c1,c2,c3,c4];
-//    //2.设置Window为主窗口并显示出来
+//        c4.tabBarItem =[[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemMore tag:3];
+//       [tabbar setViewControllers:@[c1,c2,c3,c4] animated:YES];
+    //2.设置Window为主窗口并显示出来
 //     [self.window makeKeyAndVisible];
     return YES;
     }

@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"个人中心";
+    self.tabBarItem.image = [UIImage imageNamed:@"tabbar_icon_news_highlight"];
     
 }
 

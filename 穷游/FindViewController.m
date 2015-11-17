@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"发现";
+    self.tabBarItem.image = [UIImage imageNamed:@"tabbar_icon_media_highlight"];
 }
 
 - (void)didReceiveMemoryWarning {
